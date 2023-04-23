@@ -4,6 +4,9 @@ padding:0;
 box-sizing:border-box;
 font-family: 'Anuphan', sans-serif;
 }
+body, html{
+	height: 100%;
+}
 .bg-img{
 	min-height:100%;
 	width:100vw;
@@ -83,4 +86,28 @@ font-family: 'Anuphan', sans-serif;
 }
 .para2 span{
 	color:blue;
+}
+@media only screen and (max-width: 700px) {
+	.container{
+	height: 100%;
+	background-color: black;
+	}
+	
+	.bg-img-container{
+		display: none;
+	}
+	
+  .form-sec form{
+	width: 100%;
+    margin: 0 auto;
+    padding: 0 5%;
+    color: gray;
+}
+.form-sec{
+	width: 100%;
+    top: 80px;
+}	
+.net{
+	font-size: 25px;
+}
 }
