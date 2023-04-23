@@ -1,0 +1,86 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Anuphan', sans-serif;
+}
+.bg-img{
+	min-height:100%;
+	width:100vw;
+}
+.net{
+	font-size: 40px;
+    font-weight: bold;
+    color: red;
+    border: 2px;
+    margin: 25px;
+	position: absolute;
+    left: 0;
+    right: 0;
+	top:0;
+}
+.form-sec{
+	width: 420px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 155px;
+    top: 80px;
+}
+.form-sec form{
+	width: 100%;
+    padding: 50px 65px;
+    background-color: black;
+    color: gray;
+    height: 510px;
+}	
+.form-head h1{
+	 padding-bottom: 20px;
+	 color:white;
+	 font-size:30px;
+	 font-weight:bold;
+}
+.form-input input{
+	margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 7px;
+    border: 1px;
+	background-color:#808080b8;
+	width:100%;
+}
+.form-button button{
+	display: block;
+    width: 100%;
+    border-radius: 7px;
+    border: 1px;
+    padding: 13px;
+    margin-bottom: 3px;
+	background-color:red;
+	color: white;
+    font-size: 16px;
+}
+.form-flex{
+	display:flex;
+}
+.form-flex label{
+	flex-grow:1;
+}
+.form-flex a{
+	text-decoration:none;
+	color:gray;
+}
+.form-footer{
+	margin:70px 0;
+	    font-size: small;
+}
+.form-footer p{
+	padding-bottom: 10px;
+}
+.para span{
+	color:white;
+	font-weight:bold;
+}
+.para2 span{
+	color:blue;
+}
